@@ -40,4 +40,4 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "astro-deno-env"
-          entrypoint: "dist/server/entry.mjs"
+          entrypoint: "../dist/server/entry.mjs"
